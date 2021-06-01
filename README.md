@@ -14,7 +14,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <img src="images/logo.png" alt="Logo" width="80" height="80">
+   <img src="images/logo.png" alt="Logo">
 
   <h3 align="center">Pneumonia Detection on Chest X-ray Images Through Contrastive Learning</h3>
 
