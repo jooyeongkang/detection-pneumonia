@@ -6,10 +6,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -25,6 +21,13 @@
   <p align="center">
     <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia"><strong>Kaggle: Chest X-Ray Images (Pneumonia) »</strong></a>
     <br />
+    </br>
+    <a href="https://github.com/jooyeongkang">Jooyeong Kang</a>
+    ・
+    <a href="https://github.com/">Jin Huh</a>
+    </br>
+    University of Texas at Austin
+    
   </p>
 </p>
 
@@ -253,5 +256,5 @@ Another type of further research may examine the effect of the contrastive machi
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/jooyeongkang/
 [product-screenshot]: images/screenshot.png
