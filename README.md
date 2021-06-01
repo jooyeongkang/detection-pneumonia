@@ -20,10 +20,10 @@
 <p align="center">
    <img src="images/logo.png" alt="Logo" width="80" height="80">
 
-  <h3 align="center">Chest X-Ray Images (Pneumonia)</h3>
+  <h3 align="center">Pneumonia Detection on Chest X-ray Images Through Contrastive Learning</h3>
 
   <p align="center">
-    <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia"><strong>Explore the docs »</strong></a>
+    <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia"><strong>Kaggle: Chest X-Ray Images (Pneumonia) »</strong></a>
     <br />
   </p>
 </p>
@@ -43,11 +43,11 @@
     <li><a href="#related-work">Related Work</a></li>
     <li>
       <a href="#method">Methods</a>
-      <ul>
+      <ol>
         <li><a href="#algorithms-and-architectures">Algorithms and Architectures</a></li>
         <li><a href="#data-preprocessing">Data Preprocessing</a></li>
         <li><a href="#hyperparameters">Hyperparameters</a></li>
-      </ul>
+      </ol>
      </li>
     <li><a href="#experimental-design">Experimental Design</a></li>
     <li><a href="#experimental-results">Experimental Results</a></li>
@@ -138,7 +138,9 @@ According to these assumptions, we chose random rotation and random zooming as t
 Another, but less promising, technique random flip was also included for comparison.
 
 <p align="center">
-   <img src="images/fig1.png" alt="Fig1" width="80" height="80">
+   <img src="images/fig1.png" alt="Fig1">
+   </br>
+   Fig.1. Deep Features of Contrastive Learning Algorithm (CXRs modified from data offered by Kaggle.com)
 </p>
 
 The size of the validation split was even smaller (n = 100) considering the intended scenario of small available dataset.
@@ -151,7 +153,9 @@ The number of epochs that yielded the best validation accuracy of each trained m
 All the other hyperparameters were fixed for the purpose of experiments as can be seen in Table 1.
 
 <p align="center">
-   <img src="images/table1.png" alt="Table1" width="80" height="80">
+   <img src="images/table1.png" alt="Table1">
+   </br>
+   Table 1. Major Fixed Hyperparameters
 </p>
 
 
@@ -169,7 +173,9 @@ As typically used as the evaluation metric for many cases of neural network lear
 All statistical analyses were carried out using MS Excel.
 
 <p align="center">
-   <img src="images/fig2.png" alt="Fig2" width="80" height="80">
+   <img src="images/fig2.png" alt="Fig2">
+   </br>
+   Fig.2. Experimental Design (CXRs modified from data offered by Kaggle.com)
 </p>
 
 
@@ -192,11 +198,15 @@ The null hypothesis was rejected (p < 0.01) indicating that the observed differe
 We can be 99% confident that the actual difference between the baseline and best contrastive average accuracies is between 5.7% and 6.8%, with a narrow range of 1.1%.
 
 <p align="center">
-   <img src="images/fig3.png" alt="Fig3" width="80" height="80">
+   <img src="images/fig3.png" alt="Fig3">
+   </br>
+   Fig.3. Comparison of Average Accuracies
 </p>
 
 <p align="center">
-   <img src="images/fig4.png" alt="Fig4" width="80" height="80">
+   <img src="images/table2.png" alt="Table2">
+   </br>
+   Fig.4. Descriptive Statistics of Pneumonia Detection Accuracies (n = 100 each)
 </p>
 
 
